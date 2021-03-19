@@ -54,8 +54,26 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a class="active" href="about.html">About</a></li>
-          <li><a href="services.html">Specialties</a></li>
+          <li class="dropdown"><a href="about.html" class = "active"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="about.html">About CWC</a></li>
+              <li><a href="retainership.html">Retainership</a></li>
+              <li><a href="privacy.html">Privacy</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="services.html"><span>Specialties</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Paediatrics</a></li>
+              <li><a href="#">Family Medicine</a></li>
+              <li><a href="#">Ear, Nose & Throat</a></li>
+              <li><a href="#">Obstetrics & Gynaecology</a></li>
+              <li><a href="#">Speech Therapy & Sleep Disorders</a></li>
+              <li><a href="#">Drug Addiction & Rehabilitation</a></li>
+              <li><a href="#">Wellness Clinics</a></li>
+              <li><a href="#">Dental Clinic</a></li>
+              <li><a href="#">Eye Clinic</a></li>
+            </ul>
+          </li>
           <li><a href=#>Clinic Guide</a></li>
           <li><a href=#>Tips</a></li>
           <li><a href=#>Research</a></li>
@@ -107,7 +125,7 @@
       <div class="container">
 
         <div class="row no-gutters">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
+          <div class="image col-xl-4 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
           <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center">
               <h3 data-aos="fade-up">Welcome Address</h3> </br>
@@ -151,15 +169,15 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Our <strong>Team</strong></h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Our team comprises of individuals with vast experiences in their respective fields to deliver the best care possible to our patients.</p>
         </div>
 
         <div class="row">
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up">
+            <div class="member" data-aos="fade-up" >
               <div class="member-img">
-                <img src="https://childcareclinics.com/wp-content/uploads/2020/12/ceo.png" class="img-fluid" alt="">
+                <img src="https://childcareclinics.com/wp-content/uploads/2020/12/ceo.png" class="img-fluid" alt="" data-toggle="modal" data-target="#portfolioModal1">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -175,9 +193,9 @@
           </div>
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
+            <div class="member" data-aos="fade-up" data-aos-delay="100" >
               <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <img src="https://childcareclinics.com/wp-content/uploads/2020/12/ceo.png" class="img-fluid" alt="" data-toggle="modal" data-target="#portfolioModal2">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -186,16 +204,16 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
+                <h4>Monisola Ogunsanya</h4>
+                <span>Medical Director</span>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
+            <div class="member" data-aos="fade-up" data-aos-delay="200" >
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <img src="https://childcareclinics.com/wp-content/uploads/2020/12/ceo.png" class="img-fluid" alt="" data-toggle="modal" data-target="#portfolioModal3">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -204,8 +222,8 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
+                <h4>Oni Oluwafemi Peters</h4>
+                <span>Head, Corporate Accounts, Health Insurance, Claims & Retainers</span>
               </div>
             </div>
           </div>
@@ -213,7 +231,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <img src="https://childcareclinics.com/wp-content/uploads/2020/12/ceo.png" class="img-fluid" alt="" data-toggle="modal" data-target="#portfolioModal4">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -222,8 +240,124 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
+                <h4>Abimbola Ibiteye</h4>
+                <span>Head, Nurse</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" >
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" data-toggle="modal" data-target="#portfolioModal5">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Okon Innocent Dominic</h4>
+                <span>Head, Laboratory Services</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="" data-toggle="modal" data-target="#portfolioModal6">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Bakare Saheed Akindayo</h4>
+                <span>Head, HR & Admin</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="" data-toggle="modal" data-target="#portfolioModal7">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Muinat Oyelakin</h4>
+                <span>Senior Doctor</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" data-toggle="modal" data-target="#portfolioModal8">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Celine C. Anozie</h4>
+                <span>Head, Healthcare Services</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" >
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" data-toggle="modal" data-target="#portfolioModal9">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Eseh-Okpu Oghogho</h4>
+                <span>Pediatric Nurse</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="" data-toggle="modal" data-target="#portfolioModal10">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Achor Okwubile</h4>
+                <span>Head, Cleaning</span>
               </div>
             </div>
           </div>
@@ -235,11 +369,11 @@
 
 
     <!-- ======= Our Clients Section ======= -->
-    <section id="clients" class="clients">
+    <section id="clients" class="clients" style = "padding:10px 0 60px !important">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Our <strong>Clients</strong></h2>
+          <h2>Our <strong>Partners</strong></h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
@@ -247,49 +381,61 @@
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+              <img src="https://childcareclinics.com/wp-content/uploads/2020/11/1.jpg" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+              <img src="https://childcareclinics.com/wp-content/uploads/2020/11/10.jpg" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+              <img src="https://childcareclinics.com/wp-content/uploads/2020/11/9.jpg" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+              <img src="https://childcareclinics.com/wp-content/uploads/2020/11/8.jpg" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+              <img src="https://childcareclinics.com/wp-content/uploads/2020/11/7.jpg" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+              <img src="https://childcareclinics.com/wp-content/uploads/2020/11/6.jpg" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
+              <img src="https://childcareclinics.com/wp-content/uploads/2020/11/5.jpg" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
+              <img src="https://childcareclinics.com/wp-content/uploads/2020/11/4.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="https://childcareclinics.com/wp-content/uploads/2020/11/3.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="https://childcareclinics.com/wp-content/uploads/2020/11/2.jpg" class="img-fluid" alt="">
             </div>
           </div>
 
@@ -297,6 +443,252 @@
 
       </div>
     </section><!-- End Our Clients Section -->
+    <!-- Portfolio Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <div class="container">
+                  <div class="row justify-content-center">
+                        <div class="col-lg-11">
+                            <!-- Portfolio Modal - Title-->
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-3" id="portfolioModal1Label">Dr Yashua</h2>
+                            <!-- Portfolio Modal - Image-->
+                            <img class="img-fluid rounded mb-5" src="" alt="" />
+                            <!-- Portfolio Modal - Text-->
+                            <p> Hi, my name is Yashua Alkali Hamza, a Pediatrician and Public health Expert with vast experience in the area of project implementation, evaluation and research. I work with various agencies, national and international NGO's and Public health institutions around the world on community health and health promotion activities. Some of my current partners include the London School of Hygiene and Tropical Medicine (LSHTM), the Institute of International Education (IIE) based in New York, and the Common Heritage Foundation based in Nigeria.</p>
+                            <p> I have also worked with other organizations like the Harvard School of Public health and the New York University Research Centre for Leadership in Action (NYU RCLA) on health promotion and research activities. I have pioneered, led, and supervised various community-based projects focused on improving the lives and health of disadvantaged women and children using innovative and groundbreaking techniques. I co-founded Family Included (https://familyincluded.com), a Member of the Nigerian Medical Association (NMA), American Public Health Association (APHA) and the American Medical Writers Association (AMWA).</p>
+                            <p class = "mb=3"> I am a fellow of the West African College of Physicians (FWACP) and the Institute of Management Consultants (FIMC). I have a Master of Public Health degree from the University of Liverpool and currently a Doctoral candidate at Walden University. I am also the Founder and Chief Executive Officer of Childcare and Wellness Clinics (www.childcareclinics.com) a private primary health facility located in Abuja, Nigeria. And yes, I love books, lavender and quirky chairs. </p>
+                            <button class="btn btn-primary mt-2" data-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-body text-center">
+                  <div class="container">
+                    <div class="row justify-content-center">
+                          <div class="col-lg-11">
+                              <!-- Portfolio Modal - Title-->
+                              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-3" id="portfolioModal2Label">Monisola Ogunsanya</h2>
+                              <!-- Portfolio Modal - Image-->
+                              <img class="img-fluid rounded mb-5" src="" alt="" />
+                              <!-- Portfolio Modal - Text-->
+                              <p class="mb-3">The Medical Director of Childcare and Wellness Clinics is a Consultant Family Physician who specialises in providing medical care to both the young and old within the family and community. Dr. Monisola Ogunsanya, with her understanding that illness and disease are modified by family dynamics and one’s environment, has provided medical care to clients of various ages, ethnic backgrounds in both urban and rural communities for over a decade.</p>
+                              <p> She was the head of a team which analysed the quality of healthcare given to clients in a secondary health facility and has been actively involved with several teams in establishing measures and protocols to improve quality of care. She subsequently became the site coordinator for the facility offering care to both urban and rural communities over a period of three years. Dr. Monisola has worked as a facilitator/trainer of healthcare workers of various cadres in assessing and improving quality of care in their health facilities. She is a fellow of the National Postgraduate Medical College of Nigeria and a Member of The Society of Family Physicians of Nigeria (SOFPON).</p>
+                              <button class="btn btn-primary mt-2" data-dismiss="modal">
+                                  Close
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-body text-center">
+                  <div class="container">
+                    <div class="row justify-content-center">
+                          <div class="col-lg-11">
+                              <!-- Portfolio Modal - Title-->
+                              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-3" id="portfolioModal3Label">Oni Oluwafemi Peters</h2>
+                              <!-- Portfolio Modal - Image-->
+                              <img class="img-fluid rounded mb-5" src="" alt="" />
+                              <!-- Portfolio Modal - Text-->
+                              <p class="mb-3">Femi is a graduate of Microbiology from FUA Abeokuta; he has had experience working in various medical establishments in Lagos and Abuja. He worked at the National Space Research and Development Agency, (NASRDA), in 2010 as a Clinic Superintendent Assistant- in charge of Telemedicine, he then went on to Daar communications where he acquired experience in IT, public enlightenment and sensitization before joining the accounts department at Childcare Clinics in 2013. At CWC, he was an integral part of the team that handled reteinerships and HMO’s. He is smart, articulate and has excellent people and communication skills and a good research background.</p>
+
+                              <button class="btn btn-primary mt-2" data-dismiss="modal">
+                                  Close
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-body text-center">
+                  <div class="container">
+                    <div class="row justify-content-center">
+                          <div class="col-lg-11">
+                              <!-- Portfolio Modal - Title-->
+                              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-3" id="portfolioModal4Label">Abimbola Ibiteye</h2>
+                              <!-- Portfolio Modal - Image-->
+                              <img class="img-fluid rounded mb-5" src="" alt="" />
+                              <!-- Portfolio Modal - Text-->
+                              <p class="mb-3">Mrs. Abimbola Ibiteye Adams is the Head of Nursing Department at Childcare and Wellness Clinic. She focuses on attending to clients’ wellbeing. She has attended various pediatric conferences and training workshops on Pediatric care and vaccinations, nutrition and Neonatal resuscitation. She has also led several school health checks in renowned public schools in the FCT. Nurse Bimbo also attended the Pediatric Association of Nigeria Conference (PANCOF) 2013 in Calabar. She has extensive experience working under a pediatric establishment and is a well known lover of children. A member of the Nursing and Midwifery Council of Nigerian, a Kogi State indigene and a product of Kogi State School of Nursing, Obangede. She several years working experience in renowned private hospitals Certifications Nursing and Midwifery Council of Nigerian (Registered Nurse)</p>
+                              <button class="btn btn-primary mt-2" data-dismiss="modal">
+                                  Close
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-body text-center">
+                  <div class="container">
+                    <div class="row justify-content-center">
+                          <div class="col-lg-10">
+                              <!-- Portfolio Modal - Title-->
+                              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-3" id="portfolioModal5Label">Okon Innocent Dominic</h2>
+                              <!-- Portfolio Modal - Image-->
+                              <img class="img-fluid rounded mb-5" src="" alt="" />
+                              <!-- Portfolio Modal - Text-->
+                              <p class="mb-3">Okon Innocent Dominic is a diplomatic, dedicated and organized Medical Laboratory Scientist with over Six (6) years of experience working with a profound bias for details and a history of working in ISO 15189 Pathology Laboratory. He is a change agent, improving processes necessary for positive growth with experience of reviewing Laboratory External Quality Assurance (EQA) with Daily Quality Control (DQC) reports; implementing corrective and preventative actions when the need arises for effective and efficient Medical Laboratory Service delivery for optimal patient care. A computer and Internet savvy, with a Diploma in Computer Maintenance and repairs, a skill that has been useful in all his previous and present professional career.</p>
+
+                              <button class="btn btn-primary mt-2" data-dismiss="modal">
+                                  Close
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="container">
+                      <div class="row justify-content-center">
+                            <div class="col-lg-11">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-3" id="portfolioModal6Label">Bakare Saheed Akindayo</h2>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="" alt="" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-3">Mr. Bakare Saheed Akindayo is a graduate of accounting from Al-Hikmah University Ilorin, Kwara State, Nigeria. Began his career at Miracool Ltd, where he gathered knowledge and experience on human relationship and accountability. He is a hardworking, cheerful and talented young man. He is the Administrative Officer/HR of Childcare and Wellness.</p>
+                                <button class="btn btn-primary mt-2" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-labelledby="portfolioModal7Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                  <div class="modal-body text-center">
+                      <div class="container">
+                        <div class="row justify-content-center">
+                              <div class="col-lg-11">
+                                  <!-- Portfolio Modal - Title-->
+                                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-3" id="portfolioModal7Label">Muinat Oyelakin</h2>
+                                  <!-- Portfolio Modal - Image-->
+                                  <img class="img-fluid rounded mb-5" src="" alt="" />
+                                  <!-- Portfolio Modal - Text-->
+                                  <p class="mb-3">My name is Dr. Muinat Folashade Oyelakun (MBBS), a proud mother, wife and medical practitioner who derives satisfaction in pediatric, general wellness and counselling. I like to bake, read and engage in productive discussions at my convenience. An alumnus of the prestigious University of Maiduguri where I earned an MBBS degree and preliminary clinical training. I joined childcare and wellness team of doctors few years ago, where practice has been fulfilling with tremendous success. I further achieved certifications in BLS/AED/first aid training by the American Heart Association, Clinical management of HIV from University of Washington and looking forward to more achievements.</p>
+                                  <button class="btn btn-primary mt-2" data-dismiss="modal">
+                                      Close
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-labelledby="portfolioModal8Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                  <div class="modal-body text-center">
+                      <div class="container">
+                        <div class="row justify-content-center">
+                              <div class="col-lg-11">
+                                  <!-- Portfolio Modal - Title-->
+                                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-3" id="portfolioModal8Label">Celine C. Anozie</h2>
+                                  <!-- Portfolio Modal - Image-->
+                                  <img class="img-fluid rounded mb-5" src="" alt="" />
+                                  <!-- Portfolio Modal - Text-->
+                                  <p class="mb-3">The Head of the Healthcare Service Department of the Clinic has seen to the establishment of several standard private hospitals and has worked with international projects such as Packard founded projects that cut across 46 local government areas and some States of the Federation. She has on also managed a well established hospital in the northeastern region Nigeria. Celine C. Anozie is a driven young lady from the eastern part of the country, who has been to virtually all parts of the country. Celine has been extensively trained in public relations, financial accounting and budget implementation with over 9 years working experience in private and public sectors as well as international organizations. A product of the Kano State Polytechnic with an Administrative background; Celine has copious notions and very resourceful.</p>
+                                  <button class="btn btn-primary mt-2" data-dismiss="modal">
+                                      Close
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-labelledby="portfolioModal9Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                  <div class="modal-body text-center">
+                      <div class="container">
+                        <div class="row justify-content-center">
+                              <div class="col-lg-10">
+                                  <!-- Portfolio Modal - Title-->
+                                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-3" id="portfolioModal9Label">Eseh-Okpu Oghogho</h2>
+                                  <!-- Portfolio Modal - Image-->
+                                  <img class="img-fluid rounded mb-5" src="" alt="" />
+                                  <!-- Portfolio Modal - Text-->
+                                  <p class="mb-3">My name is Eseh-OkpuOghogho, I am from Delta state born on May 21st. I am a registered pediatric nurse, joined childcare and wellness team of nurses few years ago. Its been very fulfilling working here, as the workplace is friendliest one would ever desire. I love reading and singing but dislike laziness.</p>
+                                  <button class="btn btn-primary mt-2" data-dismiss="modal">
+                                      Close
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-labelledby="portfolioModal10Label" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-body text-center">
+                        <div class="container">
+                          <div class="row justify-content-center">
+                                <div class="col-lg-11">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-3" id="portfolioModal10Label">Achor Okwubile</h2>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-3">My name is Mr. Achor Ukwubile from Kogi state, Nigeria. I am an alumnus of Benue State Polytechnic Ugbokolo where I earned a Diploma degree in Banking and Finance. My hobbies are reading, teaching and also like to watch football at my leisure. I joined childcare and wellness clinics in 2014 and till date I am super dedicated and committed to my job where I execute my duties with little or no supervision.</p>
+                                    <button class="btn btn-primary mt-2" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  <!--Modal Close -->
 
   </main><!-- End #main -->
 
@@ -386,6 +778,11 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- Third party plugin JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

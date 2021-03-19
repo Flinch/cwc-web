@@ -515,7 +515,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 75px 0;
   overflow: hidden;
 }
 
@@ -650,7 +650,6 @@ section {
   .cta .cta-btn-container {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
   }
 }
 
@@ -910,7 +909,7 @@ section {
 
 .clients .client-logo img {
   transition: all 0.3s ease-in-out;
-  height: 36px;
+  height: 80px;
   filter: grayscale(100%);
 }
 
@@ -958,9 +957,10 @@ section {
 }
 
 .about-us .image {
-  background: url("../img/about.jpg") center center no-repeat;
+  background: url("../img/dr.png") center center no-repeat;
   background-size: cover;
   min-height: 400px;
+  max-height:600px
 }
 
 @media (max-width: 991px) {
@@ -2169,8 +2169,8 @@ section {
 .directors-text{
   max-width:600px;
   height:auto;
-  margin-left: 0px;
-  padding-top: 100px;
+  margin-left: 30px;
+  padding-top: 50px;
 }
 
 div.directors-text h2:after{
@@ -2214,13 +2214,9 @@ div.directors-text h2:after{
   color:black;
 }
 
-.about-us .image{
+/* .about-us .image{
   background: url(https://childcareclinics.com/wp-content/uploads/2021/01/childcare.png) center center no-repeat;
   background-size: cover;
   min-height: 400px;
   max-height:600px
-}
-
-.clients .client-logo img{
-  height:70px !important
-}
+} */
