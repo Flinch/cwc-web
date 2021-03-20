@@ -2226,8 +2226,16 @@ div.directors-text h2:after{
   background: url(../img/slide/kids_room.jpg);
 }
 
+.col-lg-10 .img-fluid{
+  width:250px;
+}
+
 .col-lg-11 .img-fluid{
   width:250px;
+}
+
+.member-img .img-fluid {
+  max-height: 405px;
 }
 
 /* .about-us .image{
