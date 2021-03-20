@@ -2214,6 +2214,18 @@ div.directors-text h2:after{
   color:black;
 }
 
+.slide1{
+  background: url(../img/slide/building_front.jpg);
+}
+
+.slide2{
+  background: url(../img/slide/entrance.jpg);
+}
+
+.slide3{
+  background: url(../img/slide/kids_room.jpg);
+}
+
 /* .about-us .image{
   background: url(https://childcareclinics.com/wp-content/uploads/2021/01/childcare.png) center center no-repeat;
   background-size: cover;
