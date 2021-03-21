@@ -2250,7 +2250,25 @@ div.directors-text h2:after{
   }
 }
 
+.card{
+  margin-top:25px;
+}
+
+.card-text{
+  font-size:14px;
+}
+.btn-read-more-news{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bi-arrow-right{
+  display:flex;
+  margin:5px 0 0 2px;
+}
+
 div#preload { display: none; }
+
 
 /* .about-us .image{
   background: url(https://childcareclinics.com/wp-content/uploads/2021/01/childcare.png) center center no-repeat;
