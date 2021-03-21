@@ -2216,14 +2216,17 @@ div.directors-text h2:after{
 
 .slide1{
   background: url(../img/slide/building_front.jpg);
+  display: none;
 }
 
 .slide2{
   background: url(../img/slide/entrance.jpg);
+  display: none;
 }
 
 .slide3{
   background: url(../img/slide/kids_room.jpg);
+  display: none;
 }
 
 .col-lg-10 .img-fluid{
@@ -2237,6 +2240,8 @@ div.directors-text h2:after{
 .member-img .img-fluid {
   max-height: 405px;
 }
+
+/*div#preload { display: none; }*/
 
 /* .about-us .image{
   background: url(https://childcareclinics.com/wp-content/uploads/2021/01/childcare.png) center center no-repeat;
