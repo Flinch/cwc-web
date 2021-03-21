@@ -2238,6 +2238,18 @@ div.directors-text h2:after{
   max-height: 405px;
 }
 
+.paeds-img{
+  background: url(../img/paeds.svg) center center no-repeat;
+  background-size: cover;
+  width: 550px;
+}
+
+@media (max-width: 1100px){
+  .director-image{
+    display: none;
+  }
+}
+
 div#preload { display: none; }
 
 /* .about-us .image{
