@@ -2238,7 +2238,7 @@ div.directors-text h2:after{
   max-height: 405px;
 }
 
-/*div#preload { display: none; }*/
+div#preload { display: none; }
 
 /* .about-us .image{
   background: url(https://childcareclinics.com/wp-content/uploads/2021/01/childcare.png) center center no-repeat;
