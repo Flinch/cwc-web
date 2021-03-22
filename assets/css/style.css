@@ -941,7 +941,7 @@ section {
 .clients .client-logo img {
   transition: all 0.3s ease-in-out;
   height: 80px;
-  filter: grayscale(100%);
+  /*filter: grayscale(100%);*/
 }
 
 .clients .client-logo:hover img {
@@ -1067,6 +1067,7 @@ section {
   margin-bottom: 5px;
   font-size: 18px;
   color: #2b2320;
+  cursor: pointer;
 }
 
 .team .member .member-info span {
@@ -2364,6 +2365,10 @@ div#preload {
 
 .services-icon {
   width: 50px;
+}
+
+.bi::before {
+  line-height: 1.2;
 }
 
 /* .about-us .image{
