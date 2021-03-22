@@ -695,14 +695,14 @@ section {
   left: calc(50% - 36px);
   transition: 0.2s;
   border-radius: 50%;
-  border: 6px solid #fff;
+  border: 2px solid #f03c02;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #f03c02;
+  background: none;
 }
 
 .services .icon i {
@@ -723,8 +723,8 @@ section {
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
-  border: 2px solid #f03c02;
+  /*background: #fff;
+  border: 2px solid #f03c02;*/
 }
 
 .services .icon-box:hover .icon i {
