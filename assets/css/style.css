@@ -2295,7 +2295,7 @@ div.directors-text h2:after {
 .family-img {
   background: url(../img/family-500.svg) center center no-repeat;
   background-size: cover;
-  width: 500px;
+  width: 620px;
   margin-left: 30px;
 }
 
@@ -2323,7 +2323,56 @@ div.directors-text h2:after {
 .drugs-img {
   background: url(../img/drugs-500.svg) center center no-repeat;
   background-size: cover;
+  width: 600px;
+  margin-left: 30px;
+}
+
+.sonograph-img {
+  background: url(../img/sonograph.svg) center center no-repeat;
+  background-size: cover;
   width: 500px;
+  margin-left: 30px;
+}
+
+.checklist-img {
+  background: url(../img/checklist.svg) center center no-repeat;
+  background-size: cover;
+  width: 500px;
+  margin-left: 30px;
+}
+
+.well-woman-img {
+  background: url(../img/well-woman.svg) center center no-repeat;
+  background-size: cover;
+  width: 500px;
+  margin-left: 30px;
+}
+
+.visiting-img {
+  background: url(../img/visiting-500.svg) center center no-repeat;
+  background-size: cover;
+  width: 600px;
+  margin-left: 30px;
+}
+
+.ent-img {
+  background: url(../img/ent-clinic.svg) center center no-repeat;
+  background-size: cover;
+  width: 450px;
+  margin-left: 30px;
+}
+
+.immunization-img {
+  background: url(../img/immunization.svg) center center no-repeat;
+  background-size: cover;
+  width: 500px;
+  margin-left: 30px;
+}
+
+.clinic-stay-img {
+  background: url(../img/clinic-stay.svg) center center no-repeat;
+  background-size: cover;
+  width: 620px;
   margin-left: 30px;
 }
 
