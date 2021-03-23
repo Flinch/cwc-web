@@ -130,20 +130,21 @@ h6 {
 }
 
 #header .logo h1 {
-  font-size: 28px;
+  font-size: 27px !important;
   margin: 0;
   padding: 10px 0;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 100;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  font-family: Copperplate, "Copperplate Gothic Light" !important;
+  /*text-transform: uppercase;*/
 }
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
   color: #2b2320;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 27px;
 }
 
 #header .logo img {
@@ -2339,7 +2340,7 @@ div.directors-text h2:after {
   background: url(../img/checklist.svg) center center no-repeat;
   background-size: cover;
   width: 500px;
-  height:400px;
+  height: 400px;
   margin-left: 30px;
 }
 
@@ -2347,7 +2348,7 @@ div.directors-text h2:after {
   background: url(../img/well-woman.svg) center center no-repeat;
   background-size: cover;
   width: 400px;
-  height:400px;
+  height: 400px;
   margin-left: 30px;
 }
 
@@ -2355,7 +2356,7 @@ div.directors-text h2:after {
   background: url(../img/king-doc.png) center center no-repeat;
   background-size: cover;
   width: 400px;
-  height:400px;
+  height: 400px;
   margin-left: 30px;
 }
 
