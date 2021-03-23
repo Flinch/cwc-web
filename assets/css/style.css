@@ -2300,10 +2300,11 @@ div.directors-text h2:after {
 }
 
 .wellness-img {
-  background: url(../img/wellness-500.svg) center center no-repeat;
+  background: url(../img/wellness-5001.svg) center center no-repeat;
   background-size: cover;
   width: 500px;
   margin-left: 30px;
+  height: 400px;
 }
 
 .obg-img {
@@ -2338,13 +2339,23 @@ div.directors-text h2:after {
   background: url(../img/checklist.svg) center center no-repeat;
   background-size: cover;
   width: 500px;
+  height:400px;
   margin-left: 30px;
 }
 
 .well-woman-img {
   background: url(../img/well-woman.svg) center center no-repeat;
   background-size: cover;
-  width: 500px;
+  width: 400px;
+  height:400px;
+  margin-left: 30px;
+}
+
+.king-img {
+  background: url(../img/king-doc.png) center center no-repeat;
+  background-size: cover;
+  width: 400px;
+  height:400px;
   margin-left: 30px;
 }
 
