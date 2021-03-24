@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>About - Flattern Bootstrap Template</title>
+  <title>Specialties - ChildCare & Wellness Clinics</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -24,6 +24,7 @@
   <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
@@ -43,64 +44,14 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-between">
-
-      <div class="logo">
-        <h1 class="text-light"><a href="../index.html">ChildCare & Wellness Clinics</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li class="dropdown"><a href="../about.html"><span>About</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="../about.html">About CWC</a></li>
-              <li><a href="../retainership.html">Retainership</a></li>
-              <li><a href="../privacy.html">Privacy</a></li>
-            </ul>
-          </li>
-          <li><a href="../services.html" class = "active"><span>Specialties</span></a>
-            
-          </li>
-          <li class="dropdown"><a href="#"><span>Clinic Guide</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="../clinic/for_patients.html">For Patients (Immunization, ENT, Paediatrics)</a></li>
-              
-              <li><a href="../clinic/clinic_stay.html">Clinic Stay</a></li>
-              <li><a href="../clinic/visiting.html">Visiting CWC</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#void"><span>Tips</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="../tips/antibiotics.html">Antibiotics</a></li>
-              <li><a href="../tips/cold_remedies.html">Cold Remedies</a></li>
-              <li><a href="../tips/dental_health.html">Dental Health</a></li>
-              <li><a href="../tips/fever.html">Fever Management</a></li>
-              <li><a href="../tips/growth.html">Growth</a></li>
-              <li><a href="../tips/Immunisations.html">Immunisations</a></li>
-              <li><a href="../tips/jaundice.html">Jaundice</a></li>
-              <li><a href="../tips/nutrition.html">Nutrition</a></li>
-              <li><a href="../tips/tonsils.html">Tonsils & Adenoids</a></li>
-              <li><a href="../tips/weaning_feeds.html">Weaning Feeds</a></li>
-                <li><a href="../tips/info.html">Did You Know?</a></li>
-            </ul>
-          </li>
-          <li><a href="../research.html">Research</a></li>
-          <li><a href=../nadi.html>Nadi</a></li>
-          <li class="dropdown"><a href="#void"><span>News & Media</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="../cwc_news.html">CWC News</a></li>
-              <li><a href="../nadi_news.html">CWC Gallery</a></li>
-            </ul>
-          </li>
-          <li><a href="../contact.html">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
+          <script>
+        $(function () {
+          $("#header").load("nav_specialties.html", function () {
+            var els = $('a[href="services.html"]');
+            $(els[1]).addClass("active");
+          });
+        });
+      </script>
   </header><!-- End Header -->
 
   <main id="main">
@@ -130,10 +81,9 @@
           <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center">
               <h3 data-aos="fade-up">Speech Therapy & Sleep Disorders</h3> </br>
-              <p data-aos="fade-up">Speech disorders affect a person’s ability to form the sounds that allow them to communicate with other people. Speech disorders also prevent a person from forming correct speech sounds and can affect both adults and children.</p> </br>
-                <p data-aos = "fade-up"> Clients who intend to see the speech therapist at Childcare and Wellness Clinics will have to book an appointment at the Front desk of the Clinic for every visit. The front desk personnel will require a client’s data for registration as a new patient and bill the patient before logging in the patient to see the Speech therapist. Client seeing the speech therapist on days of appointment will be ushered in to see the doctor only after clearing with the front desk personnel.</p></br>
-                <p data-aos = "fade-up"> During consultation, the parent/guardian/child (for those who can speak) will be asked some questions in order to make accurate diagnosis. The doctor will inform you of any necessary tests to be carried out, should the need arise. During consultation a client will be informed if he/she will be admitted into the Clinic, treated as an outpatient or referred to another specialist.</p> </br>
-                <p data-aos = "fade-up"> All payments are made at the Front desk/Account section. Subsequent visits do not require registration. Clinic days are Wednesday, Thursdays and Fridays. Time of Clinic is based on appointments.</p>
+              <p data-aos="fade-up">People are social beings and socializing is part of our wellbeing. What can be more discouraging than an inability to communicate because of a speech disorder or an inability to keep track of a conversation because you are deprived of adequate sleep? </p> </br>
+                <p data-aos = "fade-up"> Speech disorders affect a person’s ability to form the sounds that allow them to communicate with other people. These disorders can affect both adults and children. The good news is that a lot can be done to improve speech these days. Childcare and Wellness Clinics’ experienced and dedicated speech therapists are here to help. Just book an appointment at the front desk and lets get talking.</p></br>
+                <p data-aos = "fade-up"> Sleep disorders can make everyday seem like a drag, make you grouchy, affect concentration, relationships as well as performance at work. Let us help you solve your sleep problems or that of a loved one. Call in to book an appointment to see our sleep specialist or just ask at the front desk.</p> </br>
               <!-- <div class="row">
                 <div class="col-md-6 icon-box" data-aos="fade-up">
                   <i class="bx bx-receipt"></i>

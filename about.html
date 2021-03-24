@@ -24,6 +24,7 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -43,65 +44,15 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-between">
-
-      <div class="logo">
-        <h1 class="text-light"><a href="index.html">ChildCare & Wellness Clinics</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li class="dropdown"><a href="about.html" class = "active"><span>About</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="about.html">About CWC</a></li>
-              <li><a href="retainership.html">Retainership</a></li>
-              <li><a href="privacy.html">Privacy</a></li>
-            </ul>
-          </li>
-          <li><a href="services.html"><span>Specialties</span></a>
-            
-          </li>
-          <li class="dropdown"><a href="#"><span>Clinic Guide</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="clinic/for_patients.html">For Patients (Immunization, ENT, Paediatrics)</a></li>
-              
-              <li><a href="clinic/clinic_stay.html">Clinic Stay</a></li>
-              <li><a href="clinic/visiting.html">Visiting CWC</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#void"><span>Tips</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="tips/antibiotics.html">Antibiotics</a></li>
-              <li><a href="tips/cold_remedies.html">Cold Remedies</a></li>
-              <li><a href="tips/dental_health.html">Dental Health</a></li>
-              <li><a href="tips/fever.html">Fever Management</a></li>
-              <li><a href="tips/growth.html">Growth</a></li>
-              <li><a href="tips/Immunisations.html">Immunisations</a></li>
-              <li><a href="tips/jaundice.html">Jaundice</a></li>
-              <li><a href="tips/nutrition.html">Nutrition</a></li>
-              <li><a href="tips/tonsils.html">Tonsils & Adenoids</a></li>
-              <li><a href="tips/weaning_feeds.html">Weaning Feeds</a></li>
-                <li><a href="tips/info.html">Did You Know?</a></li>
-            </ul>
-          </li>
-          <li><a href="research.html">Research</a></li>
-          <li><a href="nadi.html">Nadi</a></li>
-          <li class="dropdown"><a href="#void"><span>News & Media</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="cwc_news.html">CWC News</a></li>
-              <li><a href="nadi_news.html">CWC Gallery</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+     <script>
+    $(function(){
+      $("#header").load("nav.html", function(){
+        var els = $('a[href="about.html"]');
+        els.addClass("active");
+      });
+    });
+  </script>
+</header><!-- End Header -->
 
   <main id="main">
 
@@ -456,9 +407,9 @@
                             <!-- Portfolio Modal - Image-->
                             <img class="img-fluid rounded mb-5" style = "width:250px" src="assets/img/team/dr.jpeg" alt="" />
                             <!-- Portfolio Modal - Text-->
-                            <p> Hi, my name is Yashua Alkali Hamza, a Pediatrician and Public health Expert with vast experience in the area of project implementation, evaluation and research. I work with various agencies, national and international NGO's and Public health institutions around the world on community health and health promotion activities. Some of my current partners include the London School of Hygiene and Tropical Medicine (LSHTM), the Institute of International Education (IIE) based in New York, and the Common Heritage Foundation based in Nigeria.</p>
-                            <p> I have also worked with other organizations like the Harvard School of Public health and the New York University Research Centre for Leadership in Action (NYU RCLA) on health promotion and research activities. I have pioneered, led, and supervised various community-based projects focused on improving the lives and health of disadvantaged women and children using innovative and groundbreaking techniques. I co-founded Family Included (https://familyincluded.com), a Member of the Nigerian Medical Association (NMA), American Public Health Association (APHA) and the American Medical Writers Association (AMWA).</p>
-                            <p class = "mb=3"> I am a fellow of the West African College of Physicians (FWACP) and the Institute of Management Consultants (FIMC). I have a Master of Public Health degree from the University of Liverpool and currently a Doctoral candidate at Walden University. I am also the Founder and Chief Executive Officer of Childcare and Wellness Clinics (www.childcareclinics.com) a private primary health facility located in Abuja, Nigeria. And yes, I love books, lavender and quirky chairs. </p>
+                            <p> Dr Yashua Alkali Hamza, is a Pediatrician and Public health Expert with vast experience in the area of project implementation, evaluation and research. She works with various agencies, national and international NGO's and Public health institutions around the world on community health and health promotion activities. Some of her current partners include the London School of Hygiene and Tropical Medicine (LSHTM), the Institute of International Education (IIE) based in New York, and the Common Heritage Foundation based in Nigeria.</p>
+                            <p> She has also worked with other organizations like the Harvard School of Public health and the New York University Research Centre for Leadership in Action (NYU RCLA) on health promotion and research activities. She has pioneered, led, and supervised various community-based projects focused on improving the lives and health of disadvantaged women and children, using innovative and groundbreaking techniques. She co-founded <a href = "https://familyincluded.com" target="_blank"> Family Included </a>, is a Member of the Nigerian Medical Association (NMA), American Public Health Association (APHA) and the American Medical Writers Association (AMWA).</p>
+                            <p class = "mb=3"> She is a fellow of the West African College of Physicians (FWACP) and the Institute of Management Consultants (FIMC). She has a Masters of Public Health degree from the University of Liverpool, and is currently a Doctoral candidate at Walden University. She is also the Founder and Chief Executive Officer of Childcare and Wellness Clinics, located in Abuja, Nigeria. And yes, I love books, lavender and quirky chairs. </p>
                             <button class="btn btn-primary mt-2" data-dismiss="modal">
                                 Close
                             </button>
@@ -605,7 +556,7 @@
                                   <!-- Portfolio Modal - Image-->
                                   <img class="img-fluid rounded mb-5" src="assets/img/team/muniat.jpeg" alt="" />
                                   <!-- Portfolio Modal - Text-->
-                                  <p class="mb-3">My name is Dr. Muinat Folashade Oyelakun (MBBS), a proud mother, wife and medical practitioner who derives satisfaction in pediatric, general wellness and counselling. I like to bake, read and engage in productive discussions at my convenience. An alumnus of the prestigious University of Maiduguri where I earned an MBBS degree and preliminary clinical training. I joined childcare and wellness team of doctors few years ago, where practice has been fulfilling with tremendous success. I further achieved certifications in BLS/AED/first aid training by the American Heart Association, Clinical management of HIV from University of Washington and looking forward to more achievements.</p>
+                                  <p class="mb-3">Dr. Muinat Folashade Oyelakun (MBBS) is a proud mother, wife and medical practitioner who derives satisfaction in pediatric, general wellness and counselling. She likes to bake, read and engage in productive discussions at her convenience. She is an alumnus of the prestigious University of Maiduguri where she earned an MBBS degree and preliminary clinical training. She joined childcare and wellness team of doctors few years ago, where her practice has been fulfilling with tremendous success. She further achieved certifications in BLS/AED/first aid training by the American Heart Association, Clinical management of HIV from University of Washington and is looking forward to more achievements.</p>
                                   <button class="btn btn-primary mt-2" data-dismiss="modal">
                                       Close
                                   </button>
@@ -653,7 +604,7 @@
                                   <!-- Portfolio Modal - Image-->
                                   <img class="img-fluid rounded mb-5" src="" alt="" />
                                   <!-- Portfolio Modal - Text-->
-                                  <p class="mb-3">My name is Eseh-OkpuOghogho, I am from Delta state born on May 21st. I am a registered pediatric nurse, joined childcare and wellness team of nurses few years ago. Its been very fulfilling working here, as the workplace is friendliest one would ever desire. I love reading and singing but dislike laziness.</p>
+                                  <p class="mb-3">Eseh-OkpuOghogho, born May 21st, from Delta state is a registered pediatric nurse who joined childcare and wellness team of nurses a few years ago. She has had a very fulfilling working here, as the workplace is the friendliest one could ever desire. She loves reading and singing but dislikes laziness.</p>
                                   <button class="btn btn-primary mt-2" data-dismiss="modal">
                                       Close
                                   </button>
@@ -677,7 +628,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-3">My name is Mr. Achor Ukwubile from Kogi state, Nigeria. I am an alumnus of Benue State Polytechnic Ugbokolo where I earned a Diploma degree in Banking and Finance. My hobbies are reading, teaching and also like to watch football at my leisure. I joined childcare and wellness clinics in 2014 and till date I am super dedicated and committed to my job where I execute my duties with little or no supervision.</p>
+                                    <p class="mb-3">Mr. Achor Ukwubile from Kogi state, Nigeria is an alumnus of Benue State Polytechnic Ugbokolo where he earned a Diploma degree in Banking and Finance. His hobbies include reading, teaching and watching football at his leisure. He joined childcare and wellness clinics in 2014 and till date he is super dedicated and committed to his job, where he executes his duties with little or no supervision.</p>
                                     <button class="btn btn-primary mt-2" data-dismiss="modal">
                                         Close
                                     </button>

@@ -2434,6 +2434,9 @@ div#preload {
   flex-wrap: wrap;
 }
 
+#target {
+}
+
 /* .about-us .image{
   background: url(https://childcareclinics.com/wp-content/uploads/2021/01/childcare.png) center center no-repeat;
   background-size: cover;

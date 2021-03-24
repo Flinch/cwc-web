@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>About - Flattern Bootstrap Template</title>
+  <title>Specialties - ChildCare & Wellness Clinics</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -24,6 +24,7 @@
   <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
@@ -43,64 +44,14 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-between">
-
-      <div class="logo">
-        <h1 class="text-light"><a href="../index.html">ChildCare & Wellness Clinics</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li class="dropdown"><a href="../about.html"><span>About</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="../about.html">About CWC</a></li>
-              <li><a href="../retainership.html">Retainership</a></li>
-              <li><a href="../privacy.html">Privacy</a></li>
-            </ul>
-          </li>
-          <li><a href="../services.html" class = "active"><span>Specialties</span></a>
-            
-          </li>
-          <li class="dropdown"><a href="#"><span>Clinic Guide</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="../clinic/for_patients.html">For Patients (Immunization, ENT, Paediatrics)</a></li>
-              
-              <li><a href="../clinic/clinic_stay.html">Clinic Stay</a></li>
-              <li><a href="../clinic/visiting.html">Visiting CWC</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#void"><span>Tips</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="../tips/antibiotics.html">Antibiotics</a></li>
-              <li><a href="../tips/cold_remedies.html">Cold Remedies</a></li>
-              <li><a href="../tips/dental_health.html">Dental Health</a></li>
-              <li><a href="../tips/fever.html">Fever Management</a></li>
-              <li><a href="../tips/growth.html">Growth</a></li>
-              <li><a href="../tips/Immunisations.html">Immunisations</a></li>
-              <li><a href="../tips/jaundice.html">Jaundice</a></li>
-              <li><a href="../tips/nutrition.html">Nutrition</a></li>
-              <li><a href="../tips/tonsils.html">Tonsils & Adenoids</a></li>
-              <li><a href="../tips/weaning_feeds.html">Weaning Feeds</a></li>
-                <li><a href="../tips/info.html">Did You Know?</a></li>
-            </ul>
-          </li>
-          <li><a href="../research.html">Research</a></li>
-          <li><a href=../nadi.html>Nadi</a></li>
-          <li class="dropdown"><a href="#void"><span>News & Media</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="../cwc_news.html">CWC News</a></li>
-              <li><a href="../nadi_news.html">CWC Gallery</a></li>
-            </ul>
-          </li>
-          <li><a href="../contact.html">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
+          <script>
+        $(function () {
+          $("#header").load("nav_specialties.html", function () {
+            var els = $('a[href="services.html"]');
+            $(els[1]).addClass("active");
+          });
+        });
+      </script>
   </header><!-- End Header -->
 
   <main id="main">
@@ -130,11 +81,10 @@
           <div class="col-lg-6 ps-0 ps-lg-3 pe-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center">
               <h3 data-aos="fade-up">Family Medicine</h3> </br>
-              <p data-aos="fade-up">Clients seeking family medicine services will be required to indicate their interest to see the Family Physician at the front desk. An appointment will be required for this service at Childcare and Wellness or clients can walk in and make a request. The front desk personnel will require the client’s data for registration as a new patient and issue a bill before logging in the patient to see the Family Physician. Clients will have their vital signs taken and then ushered in to see the doctor only after clearing with the front desk personnel.</p> </br>
-                <p data-aos = "fade-up"> The front desk personnel will require the patient’s data for registration as a new patient and bill the patient before logging in the patient to see a paediatric doctor. They will be ushered in to see the doctor after clearing with the front desk personnel. During consultation, the parent/guardian/child (for those who can speak) will be asked some questions in order to make accurate diagnosis.</p></br>
-                <p data-aos = "fade-up"> The doctor will inform you of any necessary laboratory test to be carried out, should the need arise. During consultation a patient will be informed if he/she will be admitted or treated as an outpatient. At the laboratory a specialist will draw the specimen necessary for the test, bill you for it and inform you of the time to collect the results. Laboratory Results are printed and given to patients.</p> </br>
-                <p data-aos = "fade-up"> The doctor makes a diagnosis based on the laboratory results gotten where necessary and sends you to the pharmacy. At the pharmacy drugs are given to you and billed. All payments are made at the account section in order to carry out required services.</p> </br>
-                <p data-aos = "fade-up"> Subsequent visits do not require registration except another patient is using same folder. </p>
+              <p data-aos="fade-up">At Childcare and Wellness Clinics, we are concerned about the wellbeing of the whole family. This is why we offer unfragmented care for you and your loved ones. We will take care of your newborn and their great grandparents as well. When you come in with the whole or part of the family and wish to have your care under one umbrella, ask to see the Family Physician at the front desk. </p> </br>
+                <p data-aos = "fade-up"> If you are unsure which specialist to see about a condition, have a talk with our family physician who will give you the necessary guide you need to get the right care. </p></br>
+                <p data-aos = "fade-up"> Your family is safe with us as we also work with your specialists to ensure the coordination of your care, giving you a better understanding of your care process.</p> </br>
+                
               <!-- <div class="row">
                 <div class="col-md-6 icon-box" data-aos="fade-up">
                   <i class="bx bx-receipt"></i>

@@ -24,6 +24,7 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -43,64 +44,14 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-between">
-
-      <div class="logo">
-        <h1 class="text-light"><a href="index.html">ChildCare & Wellness Clinics</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li class="dropdown"><a href="about.html"><span>About</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="about.html">About CWC</a></li>
-              <li><a href="retainership.html">Retainership</a></li>
-              <li><a href="privacy.html">Privacy</a></li>
-            </ul>
-          </li>
-          <li><a href="services.html"><span>Specialties</span></a>
-            
-          </li>
-          <li class="dropdown"><a href="#"><span>Clinic Guide</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="clinic/for_patients.html">For Patients (Immunization, ENT, Paediatrics)</a></li>
-              
-              <li><a href="clinic/clinic_stay.html">Clinic Stay</a></li>
-              <li><a href="clinic/visiting.html">Visiting CWC</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#void"><span>Tips</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="tips/antibiotics.html">Antibiotics</a></li>
-              <li><a href="tips/cold_remedies.html">Cold Remedies</a></li>
-              <li><a href="tips/dental_health.html">Dental Health</a></li>
-              <li><a href="tips/fever.html">Fever Management</a></li>
-              <li><a href="tips/growth.html">Growth</a></li>
-              <li><a href="tips/Immunisations.html">Immunisations</a></li>
-              <li><a href="tips/jaundice.html">Jaundice</a></li>
-              <li><a href="tips/nutrition.html">Nutrition</a></li>
-              <li><a href="tips/tonsils.html">Tonsils & Adenoids</a></li>
-              <li><a href="tips/weaning_feeds.html">Weaning Feeds</a></li>
-                <li><a href="tips/info.html">Did You Know?</a></li>
-            </ul>
-          </li>
-          <li><a href="research.html" class = "active">Research</a></li>
-          <li><a href="nadi.html">Nadi</a></li>
-          <li class="dropdown"><a href="#void"><span>News & Media</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="cwc_news.html">CWC News</a></li>
-              <li><a href="nadi_news.html">CWC Gallery</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
+    <script>
+      $(function(){
+        $("#header").load("nav.html", function(){
+          var els = $('a[href="research.html"]');
+          els.addClass("active");
+        });
+      });
+    </script>
   </header><!-- End Header -->
 
   <main id="main">

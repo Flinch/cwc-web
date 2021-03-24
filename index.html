@@ -25,6 +25,7 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 
   <!-- Template Main CSS File -->
@@ -58,64 +59,16 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-between">
+    
+  <script>
+    $(function(){
+      $("#header").load("nav.html", function(){
+        var els = $('a[href="index.html"]');
+        els.addClass("active");
+      });
+    });
+  </script>
 
-      <!-- <div class = "row"> -->
-        <div class="logo">
-          <h1 class="text-light"><a href="index.html">ChildCare & Wellness Clinics</a></h1>
-          <!-- Uncomment below if you prefer to use an image logo -->
-         <!-- <a href="index.html"><img src="https://childcareclinics.com/wp-content/uploads/2020/11/favicon.png" alt="" class="img-fluid"></a> -->
-        </div>
-      <!-- </div> -->
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li class="dropdown"><a href="about"><span>About</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="about.html">About CWC</a></li>
-              <li><a href="retainership.html">Retainership</a></li>
-              <li><a href="privacy.html">Privacy</a></li>
-            </ul>
-          </li>
-          <li><a href="services.html">Specialties</a></li>
-          <li class="dropdown"><a href = "#void"><span>Clinic Guide</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="clinic/for_patients.html">For Patients (Immunization, ENT, Paediatrics)</a></li>
-              
-              <li><a href="clinic/clinic_stay.html">Clinic Stay</a></li>
-              <li><a href="clinic/visiting.html">Visiting CWC</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#void"><span>Tips</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="tips/antibiotics.html">Antibiotics</a></li>
-              <li><a href="tips/cold_remedies.html">Cold Remedies</a></li>
-              <li><a href="tips/dental_health.html">Dental Health</a></li>
-              <li><a href="tips/fever.html">Fever Management</a></li>
-              <li><a href="tips/growth.html">Growth</a></li>
-              <li><a href="tips/Immunisations.html">Immunisations</a></li>
-              <li><a href="tips/jaundice.html">Jaundice</a></li>
-              <li><a href="tips/nutrition.html">Nutrition</a></li>
-              <li><a href="tips/tonsils.html">Tonsils & Adenoids</a></li>
-              <li><a href="tips/weaning_feeds.html">Weaning Feeds</a></li>
-                <li><a href="tips/info.html">Did You Know?</a></li>
-            </ul>
-          </li>
-          <li><a href="research.html">Research</a></li>
-          <li><a href="nadi.html">Nadi</a></li>
-          <li class="dropdown"><a href="#void"><span>News & Media</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="cwc_news.html">CWC News</a></li>
-              <li><a href="nadi_news.html">CWC Gallery</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
@@ -127,8 +80,8 @@
         <!-- Slide 1 -->
         <div class="carousel-item active slide1">
           <div class="carousel-container">
-            <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2 class = "text-center">Welcome to ChildCare & Wellness Clinics</h2>
+            <div class="text-center carousel-content animate__animated animate__fadeInUp">
+              <h2>Welcome to ChildCare & Wellness Clinics</h2>
               <p>Where you will receive outstanding care provided by top-ranked physicians and nurses. We are essentially a pediatric specialist clinic that also provides for mums and dads. We are a healthcare facility located within the Federal Capital Territory to promote the health and total wellbeing of children in a warm, congenial and friendly atmosphere.</p>
               <div class="text-center"><a href="about.html" class="btn-get-started">Read More</a></div>
             </div>
@@ -138,9 +91,9 @@
         <!-- Slide 2 -->
         <div class="carousel-item slide2">
           <div class="carousel-container">
-            <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2 class ="text-center">Better Care Awaits You</h2>
-              <p>Yes, CWC  is a family clinic that provides excellent healthcare service delivery to children as well as their moms and dads. But  In addition to this, the facility is also a public health research center which carries out public health research with various institutes both locally and internationally.</p>
+            <div class=" text-center carousel-content animate__animated animate__fadeInUp">
+              <h2>Better Care Awaits You</h2>
+              <p>Yes, we are a family clinic that provides excellent healthcare service to children as well as their moms and dads. But, In addition to this, we are also a public health research center that carries out public health research with various institutes both locally and internationally.</p>
               <div class="text-center"><a href="about.html" class="btn-get-started">Read More</a></div>
             </div>
           </div>

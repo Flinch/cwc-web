@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>About - Flattern Bootstrap Template</title>
+  <title>Specialties - ChildCare & Wellness Clinics</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -24,6 +24,7 @@
   <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
@@ -43,64 +44,14 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-between">
-
-      <div class="logo">
-        <h1 class="text-light"><a href="../index.html">ChildCare & Wellness Clinics</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li class="dropdown"><a href="../about.html"><span>About</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="../about.html">About CWC</a></li>
-              <li><a href="../retainership.html">Retainership</a></li>
-              <li><a href="../privacy.html">Privacy</a></li>
-            </ul>
-          </li>
-          <li><a href="../services.html" class = "active"><span>Specialties</span></a>
-            
-          </li>
-          <li class="dropdown"><a href="#"><span>Clinic Guide</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="../clinic/for_patients.html">For Patients (Immunization, ENT, Paediatrics)</a></li>
-              
-              <li><a href="../clinic/clinic_stay.html">Clinic Stay</a></li>
-              <li><a href="../clinic/visiting.html">Visiting CWC</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#void"><span>Tips</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="../tips/antibiotics.html">Antibiotics</a></li>
-              <li><a href="../tips/cold_remedies.html">Cold Remedies</a></li>
-              <li><a href="../tips/dental_health.html">Dental Health</a></li>
-              <li><a href="../tips/fever.html">Fever Management</a></li>
-              <li><a href="../tips/growth.html">Growth</a></li>
-              <li><a href="../tips/Immunisations.html">Immunisations</a></li>
-              <li><a href="../tips/jaundice.html">Jaundice</a></li>
-              <li><a href="../tips/nutrition.html">Nutrition</a></li>
-              <li><a href="../tips/tonsils.html">Tonsils & Adenoids</a></li>
-              <li><a href="../tips/weaning_feeds.html">Weaning Feeds</a></li>
-                <li><a href="../tips/info.html">Did You Know?</a></li>
-            </ul>
-          </li>
-          <li><a href="../research.html">Research</a></li>
-          <li><a href=../nadi.html>Nadi</a></li>
-          <li class="dropdown"><a href="#void"><span>News & Media</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="../cwc_news.html">CWC News</a></li>
-              <li><a href="../nadi_news.html">CWC Gallery</a></li>
-            </ul>
-          </li>
-          <li><a href="../contact.html">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
+          <script>
+        $(function () {
+          $("#header").load("nav_specialties.html", function () {
+            var els = $('a[href="services.html"]');
+            $(els[1]).addClass("active");
+          });
+        });
+      </script>
   </header><!-- End Header -->
 
   <main id="main">
@@ -130,11 +81,8 @@
           <div class="col-lg-6 ps-0 ps-lg-3 pe-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center">
               <h3 data-aos="fade-up">Drug Addiction & Rehabilitation</h3> </br>
-              <p data-aos="fade-up">Childcare and Wellness Clinics provides services in drug addiction and rehabilitation. These services range from counseling to treatment with provision for inpatient services where necessary.</p> </br>
-                <p data-aos = "fade-up"> To see the psychiatrist, clients will be required to book an appointment at the Front desk of the Clinic for every visit. The front desk personnel will require a client’s data for registration as a new patient and bill the patient before logging in the patient to see the Psychiatrist. Client coming in for drug addiction rehabilitation on days of appointment will be ushered in to see the doctor only after clearing with the front desk personnel.</p></br>
-                <p data-aos = "fade-up"> During consultation information will be gathered from the client/guardian/relative in order to make preliminary diagnosis. The doctor will inform you of any necessary tests to be carried out, should the need arise. During consultation a client will be informed if he/she will be admitted into the Clinic, treated as an outpatient or referred to another specialist.</p> </br>
-                <p data-aos = "fade-up"> At the Laboratory a scientist will receive the specimen necessary for the test, bill patient for it and inform you of the time to collect the results. Laboratory Results are printed and given to patients on request.</p> </br>
-                <p data-aos = "fade-up"> All payments are made at the Front desk/Account section. Subsequent visits do not require registration.</p>
+              <p data-aos="fade-up">Childcare and Wellness Clinics provides rehabilitation services to help with life’s tough events that may have led to dependance on harmful substances to cope.  These services range from counseling to treatment with provision for inpatient services where necessary. </p> </br>
+                <p data-aos = "fade-up"> Are you seeking help for yourself, a friend, colleague or family member? Or do you seek other services to improve mental health? We are here for as long as you need us. You can get an appointment to see the psychiatrist or behavioural therapist. Speak with any of our doctors or nurses or book an appointment directly at the front desk. </p></br>
               <!-- <div class="row">
                 <div class="col-md-6 icon-box" data-aos="fade-up">
                   <i class="bx bx-receipt"></i>
