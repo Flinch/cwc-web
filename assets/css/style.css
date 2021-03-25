@@ -2435,6 +2435,19 @@ div#preload {
   flex-wrap: wrap;
 }
 
+@media (max-width: 768px) {
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 /* .about-us .image{
   background: url(https://childcareclinics.com/wp-content/uploads/2021/01/childcare.png) center center no-repeat;
   background-size: cover;
