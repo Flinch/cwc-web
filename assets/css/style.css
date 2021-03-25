@@ -2443,8 +2443,7 @@ div#preload {
   .container-sm,
   .container-xl,
   .container-xxl {
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 30px;
   }
 }
 
