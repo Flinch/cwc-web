@@ -2435,6 +2435,9 @@ div#preload {
   flex-wrap: wrap;
 }
 
+#director {
+}
+
 @media (max-width: 768px) {
   .container,
   .container-fluid,
@@ -2444,6 +2447,10 @@ div#preload {
   .container-xl,
   .container-xxl {
     padding-left: 30px;
+  }
+
+  .forced-padding {
+    padding-left: 0px;
   }
 }
 
