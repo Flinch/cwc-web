@@ -2433,6 +2433,7 @@ div#preload {
 .rows {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 0px !important;
 }
 
 #director {
@@ -2450,7 +2451,7 @@ div#preload {
   }
 
   .forced-padding {
-    padding-left: 0px;
+    padding-left: 12px;
   }
 }
 
