@@ -45,7 +45,7 @@
   <header id="header" class="d-flex align-items-center">
         <script>
       $(function(){
-        $("#header").load("nav.html", function(){
+        $("#header").load("nav", function(){
           var els = $('a[href="#void"]');
           $(els[2]).addClass("active");
       
@@ -63,7 +63,7 @@
         <div class="d-flex justify-content-between align-items-center">
           <h2>CWC Gallery</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index">Home</a></li>
             <li>CWC Gallery</li>
           </ol>
         </div>
@@ -365,7 +365,7 @@
   <footer id="footer">
 
  <script>
-    $("#footer").load("footer.html")
+    $("#footer").load("footer")
  </script>
   </footer><!-- End Footer -->
 
