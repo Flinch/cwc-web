@@ -24,14 +24,21 @@
   $contact->subject = $_POST['subject'];
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
+<<<<<<< HEAD
   
 $contact->smtp = array(
+=======
+ $contact->smtp = array(
+>>>>>>> htaceess
     'host' => 'smtp-relay.sendinblue.com',
     'username' => 'lorembaker@gmail.com',
     'password' => '9H0hzyFW5U8wOTbK',
     'port' => '587'
   );
+<<<<<<< HEAD
   
+=======
+>>>>>>> htaceess
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
