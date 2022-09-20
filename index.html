@@ -41,10 +41,9 @@
 </head>
 
 <body>
-
+ <div class="bar"> <p style="padding-top: 18px ;"> We are celebrating the launch of our Holistic Gardens on October 1st! Click <a href ="specialties/revitalize" style="color: blue;" target="_blank" > here </a> to check it out! </p> </div>
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
-
     <script>
       $(function() {
         $("#header").load("nav.html", function() {
@@ -54,6 +53,23 @@
       });
     </script>
 
+    <script src="./assets/js/confetti.js"></script>
+    <script> 
+      const start = () => {
+      setTimeout(function() {
+          confetti.start()
+      }, 500); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+    };
+
+     const stop = () => {
+        setTimeout(function() {
+            confetti.stop()
+        }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+    };
+
+    start();
+    stop();
+    </script>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->

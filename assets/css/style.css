@@ -49,6 +49,19 @@ h6 {
   transition: all 0.4s;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
+.bar {
+  color: white;
+  height: 60px;
+  background-color: red;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+
 .back-to-top i {
   font-size: 28px;
   color: #fff;
