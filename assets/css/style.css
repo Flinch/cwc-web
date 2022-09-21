@@ -2471,6 +2471,14 @@ div#preload {
     padding-left: 30px;
   }
 
+  .hideMedia {
+    display: none;
+  }
+
+  .blockMedia {
+    display: block !important;
+  }
+
   .forced-padding {
     padding-left: 12px;
   }
