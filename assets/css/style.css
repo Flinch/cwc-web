@@ -35,6 +35,12 @@ h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+
+.ceo {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
 .back-to-top {
   position: fixed;
   visibility: hidden;
