@@ -2299,6 +2299,18 @@ div.directors-text h2:after {
   max-height: 405px;
 }
 
+.special-img {
+  width: 300px;
+  height: 300px;
+}
+
+@media (min-width: 992px) {
+  .special-img {
+    width: auto;
+    height: auto;
+  }
+}
+
 .paeds-img {
   background: url(../img/paeds-800.svg) center center no-repeat;
   background-size: cover;
