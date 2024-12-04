@@ -2311,6 +2311,28 @@ div.directors-text h2:after {
   }
 }
 
+.cardrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carditself {
+  margin-bottom: 16px; /* Adds some spacing between rows on smaller screens */
+}
+
+@media (min-width: 768px) {
+  .cardrow {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  .columnstuff:last-child {
+    margin-right: auto; /* Push the last card to fill the space on the right */
+  }
+}
+
 .paeds-img {
   background: url(../img/paeds-800.svg) center center no-repeat;
   background-size: cover;
