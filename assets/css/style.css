@@ -2549,7 +2549,9 @@ div#preload {
 #spinner {
   opacity: 1;
   visibility: visible;
-  transition: opacity 0.8s ease-out, visibility 0s linear 0.8s;
+  transition:
+    opacity 0.8s ease-out,
+    visibility 0s linear 0.8s;
   z-index: 99999;
 }
 
@@ -2774,7 +2776,8 @@ div#preload {
 /*** Carousel End ***/
 
 .bg-breadcrumb {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../img/appointment-background.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -2928,7 +2931,8 @@ div#preload {
 
 /*** Appointment  Start ***/
 .appointment {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/appointment-background.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -3050,7 +3054,8 @@ div#preload {
 
 /*** Pricing Start ***/
 .pricing {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/appointment-background.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -3152,7 +3157,8 @@ div#preload {
 
 /*** testimonial Start ***/
 .testimonial {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/testimonial-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -3193,7 +3199,8 @@ div#preload {
 
 /*** Contact Start ***/
 .contact {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/appointment-background.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -3231,7 +3238,80 @@ div#preload {
   background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+.line {
+  background-color: #818181;
+  width: 100%;
+  margin: 20px 0;
+  padding-top: 1.5px;
+}
+.where-care-card {
+  background-color: #b8fbba;
+  margin-top: 20px;
+}
+.rounded-tick {
+  border: 1px solid rgb(45, 152, 90);
+  border-radius: 100%;
+  font-size: 13px;
+}
+.proud-text {
+  color: black;
+  font-weight: 700;
+}
 
+.research-division-section {
+  background: #f5efdf;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.watermark {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.watermark img {
+  width: 70%;
+  max-width: 900px;
+  opacity: 0.06;
+  object-fit: contain;
+}
+
+/* Keep content above watermark */
+.research-division-section .division-container {
+  position: relative;
+  z-index: 1;
+}
+.emphasis {
+  font-weight: 600;
+}
+.text-size {
+  font-size: 17px;
+}
+.nadi-card {
+  border-radius: 15px;
+}
+.nadi-special {
+  width: 100%;
+}
+.hum-desc-diff {
+  font-weight: 500;
+  color: rgb(101, 86, 86);
+  text-transform: uppercase;
+
+  background-color: rgb(235, 235, 235);
+}
+.hum-desc {
+  font-weight: 500;
+  color: rgb(101, 86, 86);
+  text-transform: uppercase;
+  border: 1px solid rgb(101, 86, 86);
+}
 @font-face {
   font-family: CursiveLight;
   src: url("./PlaywriteNL-Light.ttf");
