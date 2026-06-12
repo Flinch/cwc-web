@@ -3278,7 +3278,7 @@ div#preload {
 .watermark img {
   width: 70%;
   max-width: 900px;
-  opacity: 0.06;
+  opacity: 0.1;
   object-fit: contain;
 }
 
@@ -3295,6 +3295,10 @@ div#preload {
 }
 .nadi-card {
   border-radius: 15px;
+}
+
+.rd-card:hover {
+  text-decoration: underline;
 }
 .nadi-special {
   width: 100%;
