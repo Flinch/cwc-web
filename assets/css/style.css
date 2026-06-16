@@ -3316,6 +3316,9 @@ div#preload {
   text-transform: uppercase;
   border: 1px solid rgb(101, 86, 86);
 }
+.textcolor {
+  color: #fd6f41;
+}
 @font-face {
   font-family: CursiveLight;
   src: url("./PlaywriteNL-Light.ttf");
