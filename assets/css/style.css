@@ -2845,6 +2845,22 @@ div#preload {
   object-fit: cover;
 }
 
+@media (max-width: 767.98px) {
+  .about-video-section,
+  .about-video-section .container,
+  .about-video-section .row,
+  .about-video-section .col-12 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .about-video-section .video.full-width-video {
+    border-radius: 0;
+  }
+}
+
 .video .btn-play {
   position: absolute;
   z-index: 3;
