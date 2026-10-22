@@ -47,6 +47,71 @@
 
     <!-- Template Main CSS File -->
     <link href="../assets/css/style.css" rel="stylesheet" />
+
+    <style>
+      @media (min-width: 992px) {
+        .articles-section .container {
+          max-width: 1220px;
+        }
+
+        .articles-section .article-list {
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+          padding-left: 1rem;
+          padding-right: 1rem;
+        }
+
+        .articles-section .article-card {
+          display: flex;
+          align-items: stretch;
+          overflow: hidden;
+          min-height: 290px;
+          margin: 0 0.75rem;
+          border-radius: 0;
+        }
+
+        .articles-section .article-img {
+          width: 30%;
+          min-width: 30%;
+          display: block;
+        }
+
+        .articles-section .article-img img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block;
+        }
+
+        .articles-section .article-body {
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 1.5rem 2rem 1.5rem 2.25rem !important;
+          text-align: left;
+        }
+
+        .articles-section .article-tag {
+          font-size: 0.72rem;
+          letter-spacing: 0.08em;
+          margin-bottom: 0.5rem;
+        }
+
+        .articles-section .article-title {
+          font-size: clamp(1.5rem, 1.8vw, 2.4rem);
+          line-height: 1.2;
+          margin-bottom: 0.7rem;
+        }
+
+        .articles-section .article-excerpt {
+          font-size: 1rem;
+          line-height: 1.7;
+          margin-bottom: 0;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -152,123 +217,75 @@
     </div>
 
     <div class="container-fluid about py-5">
-    <section class="articles-section">
+  <section class="articles-section">
     <div class="container">
 
-      <!-- Section heading -->
       <div class="text-center mb-5">
-    <h1 class="display-6">Revitalize Wellness and Holistic Gardens</h1>
+        <h1 class="display-6">Revitalize Gardens 4th Anniversary</h1>
       </div>
 
-     
-      <div class="row g-4">
+      <div class="article-list">
 
         <!-- Article 1 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <article class="card article-card">
-
-            <img
-              src="../assets/img/WHG/1.1.jpeg"
-              loading="lazy"
-            >
-
-            <div class="card-body p-4">
-
-
-              <h4 class="article-title fs-5 mt-3">
-                Revitalize Celebrates Four Years of Holistic Wellness
-              </h4>
-
-              <p class="fs-6">
-              Revitalize Wellness and Holistic Garden has celebrated four years of promoting holistic wellness, relaxation, healthy living and connection with nature...<a href="../specialties/articles/revitalize-celebrates-four-years-of-holistic-wellness.html" target="_blank">
-                see more
-              </a>
-              </p>
-            </div>
-          </article>
-        </div>
+        <article class="card article-card">
+          <a href="./articles/revitalize-celebrates-four-years-of-holistic-wellness.html" class="article-img">
+            <img src="../assets/img/WHG/1.1.jpeg" alt="" loading="lazy" />
+          </a>
+          <div class="card-body article-body">
+            <h4 class="article-title">Revitalize Celebrates Four Years of Holistic Wellness</h4>
+            <p class="article-excerpt">
+              Revitalize Wellness and Holistic Garden has celebrated four years of promoting holistic wellness, relaxation, healthy living and connection with nature...
+              <a href="./articles/revitalize-celebrates-four-years-of-holistic-wellness.html">see more</a>
+            </p>
+          </div>
+        </article>
 
         <!-- Article 2 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <article class="card article-card">
-
-            <img
-              src="../assets/img/WHG/1.jpeg"
-              alt=""
-              loading="lazy"
-            >
-
-            <div class="card-body p-4">
-
-
-              <h4 class="article-title fs-5 mt-3">
-               Revitalize Launches Green Skills Initiative
-              </h4>
-
-              <p class="fs-6">
-              Revitalize Wellness and Holistic Garden introduced its Green Skills initiative during its fourth-anniversary celebration to promote urban gardening, healthy eating...<a href="./articles/revitalize-launches-green-skills-initiative.html">
-                see more
-              </a>
-              </p>
-            </div>
-          </article>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <article class="card article-card">
-
-            <img
-              src="../assets/img/WHG/2.jpeg"
-              loading="lazy"
-            >
-
-            <div class="card-body p-4">
-
-
-              <h4 class="article-title fs-5 mt-3">
-              The Connection Between Nature and Wellness
-              </h4>
-
-              <p class="fs-6">
-              As it marks four years of service, Revitalize Wellness and Holistic Garden continues to champion the relationship between nature and human well-being...<a href="./articles/the-connection-between-nature-and-wellness.html">
-                see more
-              </a>
-              </p>
-            </div>
-          </article>
-        </div>
+        <article class="card article-card">
+          <a href="./articles/revitalize-launches-green-skills-initiative.html" class="article-img">
+            <img src="../assets/img/WHG/1.jpeg" alt="" loading="lazy" />
+          </a>
+          <div class="card-body article-body">
+            <h4 class="article-title">Revitalize Launches Green Skills Initiative</h4>
+            <p class="article-excerpt">
+              Revitalize Wellness and Holistic Garden introduced its Green Skills initiative during its fourth-anniversary celebration to promote urban gardening, healthy eating...
+              <a href="./articles/revitalize-launches-green-skills-initiative.html">see more</a>
+            </p>
+          </div>
+        </article>
 
         <!-- Article 3 -->
-      <div class="col-12 col-md-6 col-lg-4">
-          <article class="card article-card">
+        <article class="card article-card">
+          <a href="./articles/the-connection-between-nature-and-wellness.html" class="article-img">
+            <img src="../assets/img/WHG/2.jpeg" alt="" loading="lazy" />
+          </a>
+          <div class="card-body article-body">
+            <h4 class="article-title">The Connection Between Nature and Wellness</h4>
+            <p class="article-excerpt">
+              As it marks four years of service, Revitalize Wellness and Holistic Garden continues to champion the relationship between nature and human well-being...
+              <a href="./articles/the-connection-between-nature-and-wellness.html">see more</a>
+            </p>
+          </div>
+        </article>
 
-            <img
-              src="../assets/img/WHG/3.jpeg"
-              loading="lazy"
-            >
-
-            <div class="card-body p-4">
-
-
-              <h4 class="article-title fs-5 mt-3">
-                Building Partnerships for Community Wellness
-              </h4>
-
-              <p class="fs-6">
-               The fourth-anniversary celebration of Revitalize Wellness and Holistic Garden highlighted the importance of partnerships in advancing wellness...<a href="./articles/building-partnerships-for-community-wellness.html">
-                see more
-              </a>
-              </p>
-            </div>
-          </article>
-        </div>
+        <!-- Article 4 -->
+        <article class="card article-card">
+          <a href="./articles/building-partnerships-for-community-wellness.html" class="article-img">
+            <img src="../assets/img/WHG/3.jpeg" alt="" loading="lazy" />
+          </a>
+          <div class="card-body article-body">
+            <h4 class="article-title">Building Partnerships for Community Wellness</h4>
+            <p class="article-excerpt">
+              The fourth-anniversary celebration of Revitalize Wellness and Holistic Garden highlighted the importance of partnerships in advancing wellness...
+              <a href="./articles/building-partnerships-for-community-wellness.html">see more</a>
+            </p>
+          </div>
+        </article>
 
       </div>
-
-
     </div>
   </section>
-
-    </div>
+</div>
    
   
 
